@@ -1,0 +1,17 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+dist
+*.log
+.vscode
+.DS_Store
+
+# Arquivos de skills gerados automaticamente pelo Prisma para assistentes de IA
+.agents
+.claude
+.cursor
+.devin
+.windsurf
+skills-lock.json
