@@ -182,14 +182,14 @@ http://localhost:3000
 | PUT    | `/veiculos/:id`            | Atualiza um veículo                   |
 | DELETE | `/veiculos/:id`            | Remove um veículo                     |
 
-### 👤 Clientes *(em desenvolvimento)*
+### 👤 Clientes
 
 | Método | Endpoint     | Descrição         |
 | ------ | ------------ | ------------------ |
 | GET    | `/clientes`  | Lista clientes      |
 | POST   | `/clientes`  | Cadastra cliente    |
 
-### 🔄 Aluguéis *(em desenvolvimento)*
+### 🔄 Aluguéis
 
 | Método | Endpoint     | Descrição          |
 | ------ | ------------ | -------------------- |
