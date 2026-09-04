@@ -8,6 +8,6 @@ router.post("/", asyncHandler(criar));
 router.put("/:id", asyncHandler(atualizar));
 router.delete("/:id", asyncHandler(deletar));
 router.get("/", asyncHandler(listar));
-router.get("/:identificador", asyncHandler(buscar));
+router.get("/:id", asyncHandler(buscar));
 
 export default router;

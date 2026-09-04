@@ -46,16 +46,16 @@ export async function listaVeiculo() {
     });
 }
 
-export async function buscarVeiculo(identificador: string) {
-    const numerico = /^\d+$/.test(identificador);
+export async function buscarVeiculo(id: string) {
+    const numerico = /^\d+$/.test(id);
 
     if (numerico) {
         return prisma.veiculo.findUnique({
-            where: { id: Number(identificador) },
+            where: { id: Number(id) },
         });
     }
 
     return prisma.veiculo.findUnique({
-        where: { placa: identificador },
+        where: { placa: id },
     });
 }
