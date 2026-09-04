@@ -26,11 +26,6 @@ Atualmente a API possui:
 ✅ Tratamento global de erros da aplicação
 ✅ Integração com banco de dados PostgreSQL via Prisma ORM
 
-🚧 Em desenvolvimento:
-
-* [ ] Cadastro e gerenciamento de clientes
-* [ ] Cadastro e controle de aluguéis (vínculo veículo/cliente com datas)
-
 ---
 
 ## 🛠️ Tecnologias utilizadas
@@ -219,7 +214,6 @@ Durante o desenvolvimento foram praticados:
 
 Algumas melhorias planejadas:
 
-* [ ] Finalizar módulos de cliente e aluguel
 * [ ] Adicionar validação de campos
 * [ ] Implementar autenticação JWT
 * [ ] Documentar API com Swagger/OpenAPI
