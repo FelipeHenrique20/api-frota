@@ -177,7 +177,7 @@ http://localhost:3000
 | Método | Endpoint                | Descrição                            |
 | ------ | ------------------------ | ------------------------------------- |
 | GET    | `/veiculos`               | Lista todos os veículos               |
-| GET    | `/veiculos/:identificador`| Busca um veículo por ID ou placa      |
+| GET    | `/veiculos/:id`           | Busca um veículo por ID ou placa      |
 | POST   | `/veiculos`                | Cadastra um veículo                   |
 | PUT    | `/veiculos/:id`            | Atualiza um veículo                   |
 | DELETE | `/veiculos/:id`            | Remove um veículo                     |
