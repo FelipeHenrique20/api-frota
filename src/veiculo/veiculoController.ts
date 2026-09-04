@@ -25,7 +25,7 @@ export async function listar(req: Request, res: Response) {
 }
 
 export async function buscar(req: Request, res: Response) {
-    const veiculo = await buscarVeiculo(req.params.identificador as string);
+    const veiculo = await buscarVeiculo(req.params.id as string);
 
     if (!veiculo) {
         throw new AppError("Veículo não encontrado", 404);
