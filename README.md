@@ -26,11 +26,6 @@ Atualmente a API possui:
 ✅ Tratamento global de erros da aplicação
 ✅ Integração com banco de dados PostgreSQL via Prisma ORM
 
-🚧 Em desenvolvimento:
-
-* [ ] Cadastro e gerenciamento de clientes
-* [ ] Cadastro e controle de aluguéis (vínculo veículo/cliente com datas)
-
 ---
 
 ## 🛠️ Tecnologias utilizadas
@@ -177,19 +172,19 @@ http://localhost:3000
 | Método | Endpoint                | Descrição                            |
 | ------ | ------------------------ | ------------------------------------- |
 | GET    | `/veiculos`               | Lista todos os veículos               |
-| GET    | `/veiculos/:identificador`| Busca um veículo por ID ou placa      |
+| GET    | `/veiculos/:id`           | Busca um veículo por ID ou placa      |
 | POST   | `/veiculos`                | Cadastra um veículo                   |
 | PUT    | `/veiculos/:id`            | Atualiza um veículo                   |
 | DELETE | `/veiculos/:id`            | Remove um veículo                     |
 
-### 👤 Clientes *(em desenvolvimento)*
+### 👤 Clientes
 
 | Método | Endpoint     | Descrição         |
 | ------ | ------------ | ------------------ |
 | GET    | `/clientes`  | Lista clientes      |
 | POST   | `/clientes`  | Cadastra cliente    |
 
-### 🔄 Aluguéis *(em desenvolvimento)*
+### 🔄 Aluguéis
 
 | Método | Endpoint     | Descrição          |
 | ------ | ------------ | -------------------- |
@@ -219,7 +214,6 @@ Durante o desenvolvimento foram praticados:
 
 Algumas melhorias planejadas:
 
-* [ ] Finalizar módulos de cliente e aluguel
 * [ ] Adicionar validação de campos
 * [ ] Implementar autenticação JWT
 * [ ] Documentar API com Swagger/OpenAPI
