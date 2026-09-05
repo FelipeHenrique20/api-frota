@@ -59,3 +59,13 @@ model Aluguel {
 
   @@map("alugueis")
 }
+
+model Usuario {
+  id        Int      @id @default(autoincrement())
+  nome      String
+  email     String   @unique
+  senha     String
+  createdAt DateTime @default(now())
+
+  @@map("usuarios")
+}
